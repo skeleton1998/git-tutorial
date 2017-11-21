@@ -1,11 +1,11 @@
-(1..100).each{|i|
+for i in 1..100
 	if i % 3 == 0 && i % 5 == 0
-		print "FizzBuzz\n"
-	else if i % 3 == 0
-		print "Fizz\n"
-	else if i % 5 == 0
-		print "Buzz\n"
+		print("FizzBuzz\n")
+	elsif i % 3 == 0
+		print("Fizz\n")
+	elsif i % 5 == 0
+		print("Buzz\n")
 	else
-		print i + "\n"
+		print "#{i}\n"
 	end
-}
+end
